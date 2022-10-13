@@ -6,7 +6,7 @@
 }
 main{
     width: 100%;
-    height:auto;
+    height:10vh;
     display: block;
     justify-content: center;
     flex-direction: column;
@@ -23,7 +23,7 @@ nav{
     font-weight: bold;
     color: whitesmoke;
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     display: block;
     box-shadow: inset 2px 2px 20px rgba(255,255,255,.5);
     text-shadow: 2px 2px black;
@@ -46,7 +46,7 @@ align-items: center;
 justify-content: space-evenly;
 height: 100%;
 list-style: none;
-text-transform: capitalize;
+
 }
 li{
     padding: 2px; 
@@ -81,11 +81,15 @@ box-shadow:  inset 20px 7px 70px  50px rgba(0,0,0,1), inset rgba(255,255, 255,0.
         padding: 2px;
         
     }
+    button{
+        font-size: 15px;
+    }
     h1{
         background: red;
 border-radius: 5px;
         font-size: 15px;
         padding: 0;
+        text-decoration: none;
     }
 
 }
@@ -102,46 +106,97 @@ video{
 }
 
 
-#explore{
+.explore{
     text-align: center;
     color: black;
-    background:rgba(0,0,0,.80);
+    background:rgba(0,0,0,.5);
     color: orangered;
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     
     
 }
 #exp{
-    height: 100px;
+    margin-top: 30vh;
+    height: auto;
     width: 100%;
-    z-index: 0;
-    border: 5px solid white;
     text-align: center;
-    width: 100%;
-    height: 83vh;
     z-index: 2;
     color: white;
     text-align: center;
-    display: flex;
+    display: block;
     align-items: center;
+    justify-content: center;
 }
 p{
     text-transform: capitalize;
     margin: 20px;
 
 }
+h3,p{
+    background: white;
+    color: black;
+    padding: 20px;
+}
 h2{
     color: white;
-    padding: 15px auto;
+    padding: auto;
     width: 200px;
     border: 2px solid white;
     border-radius: 2px;
     
 }
 #f300{
-    height: 80px;
-    width: 100px;
-    margin:200px
+    left:0;
+    height: 3vh;
+    width: 4vh;
+    zoom:4;
+    animation: truck 5s linear infinite;
+
+}
+@keyframes truck{
+
+    0%{ zoom:0;}
+
+    100%{zoom: 5;}
+
+}
+.facebook2{
+    
+    padding: 5vh;
+    color: darkblue;
+    background: white;
+    width: 100%;
+    margin-top: 30vh;
+    border-radius: 5px;
+
+}
+#facebook2:hover{
+    
+    background: blue;
+    color: white;
+}
+a{
+    text-decoration-line: none;
+    
+}
+#homepage{
+    margin-top: 30vh;
+    background: rgba(0,0,0,1);
+}
+
+button{
+    width: auto;
+    height: 10vh;
+    font-weight: bold;
+    color: blue;
+    font-size: 3rem;
+    margin: auto;
+    border: none;
+    box-shadow: 6px 6px 6px 6px rgba(255,255, 255,0.25),rgba(255,255, 255,0.25);
 }
