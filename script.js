@@ -7,7 +7,7 @@ const data={
     contacts:`<h1 class='explore'><a  target='blank'href='tel:+263774816199'><a href="https://wa.me/263774816199?text=hi">Send WhatsApp Now</a>Call Us Now</h1>
     `,
     email:`<h1  class='facebook2' ><a target='blank'href='mailto:partsspares@clouda.co.zw'>Email partsspares@clouda.co.zw<img id='f300'src="F3000.png" alt=""></h1>`,
-    facebook:`<h1  class='facebook2' >Click Here<a target='blank'href='https://www.facebook.com/100086196271500/'><button> truckspares.facebook.com</button><img id='f300'src="F3000.png" alt=""></h1>`,
+    facebook:`<h1  class='facebook2' >Click Here<a target='blank'href='https://www.facebook.com/100086196271500/'><button>facebook.com</button><img id='f300'src="F3000.png" alt=""></h1>`,
     about:`<h3>Cloud Africa Parts Spares has the best parts for your trucks</h3>`
 }
 
